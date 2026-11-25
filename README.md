@@ -2,7 +2,7 @@
 
 Personal website for research, writing, and a resume.
 
-[yehuitang0316.github.io](https://yehuitang0316.github.io/)
+[yehui-tang.github.io](https://yehui-tang.github.io/)
 
 ## Update the website
 
