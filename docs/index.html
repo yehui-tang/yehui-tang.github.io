@@ -12,6 +12,7 @@
   <script src="assets/theme.js"></script>
   <link rel="stylesheet" href="assets/site.css">
   <script src="assets/nav.js" defer></script>
+  <script src="assets/contact.js" defer></script>
 </head>
 <body id="top">
   <a class="skip" href="#main">Skip to content</a>
@@ -36,7 +37,7 @@
     <div class="intro wrap">
       <section class="profile" aria-labelledby="name">
         <h1 id="name">Yehui Tang</h1>
-        <div class="profile-links" role="group" aria-label="Personal profiles">
+        <div class="profile-links" role="group" aria-label="Personal profiles and contact">
           <a class="profile-icon" href="https://github.com/yehui-tang" aria-label="GitHub" title="GitHub">
             <img src="assets/github.svg" width="21" height="21" alt="">
           </a>
@@ -55,7 +56,14 @@
           <a class="profile-icon" href="https://www.zhihu.com/people/tang-ye-hui-43" aria-label="Zhihu" title="知乎">
             <img src="assets/zhihu.svg" width="23" height="23" alt="">
           </a>
+          <button class="profile-icon" id="email-toggle" type="button" aria-label="Email address" title="Email address" aria-expanded="false" aria-controls="email-contact" hidden>
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" aria-hidden="true">
+              <rect x="2.5" y="5" width="19" height="14" rx="2.5"/>
+              <path d="m3.5 6.5 8.5 6.7 8.5-6.7"/>
+            </svg>
+          </button>
         </div>
+        <a id="email-contact" class="text-link" hidden></a>
       </section>
 
       <section class="about" aria-labelledby="about-title">

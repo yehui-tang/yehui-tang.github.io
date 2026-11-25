@@ -52,6 +52,8 @@ h1 { font-size: clamp(60px, 7vw, 99px); line-height: 1.08; font-weight: 640; let
 .about .bio + .bio { margin-top: .75em; }
 .profile-links { display: flex; align-items: center; flex-wrap: wrap; gap: 2px; margin: 20px 0 0 -11px; }
 .profile-icon { display: inline-grid; width: 44px; height: 44px; place-items: center; border-radius: 50%; }
+button.profile-icon { padding: 0; border: 0; color: var(--secondary); background: none; cursor: pointer; }
+#email-contact { margin-top: 8px; }
 .profile-icon img { display: block; opacity: .78; }
 .profile-icon:is(:hover, :focus-visible) { background: var(--hover); }
 .profile-icon:is(:hover, :focus-visible) img { opacity: 1; }
