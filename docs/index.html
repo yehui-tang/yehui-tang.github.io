@@ -1,0 +1,127 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ffffff">
+  <title>Yehui Tang</title>
+  <meta name="description" content="Yehui Tang’s research, open-source projects, tutorials, and writing on AI agents and recursive self-improvement.">
+  <link rel="canonical" href="https://yehuitang0316.github.io/">
+  <link rel="icon" href="assets/initials.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/site.css">
+  <script src="assets/nav.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap nav-wrap">
+      <a class="brand" href="#top">Yehui Tang</a>
+      <button type="button" id="menu-toggle" aria-expanded="false" aria-controls="site-nav" hidden>Menu <span class="chevron" aria-hidden="true"></span></button>
+      <nav id="site-nav" aria-label="Main navigation">
+        <a href="#repositories">Repositories</a>
+        <a href="#news">News</a>
+        <a href="#tutorials">Tutorials</a>
+        <a href="#blog">Blog</a>
+        <a href="#papers">Papers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <div class="intro wrap">
+      <section class="profile" aria-labelledby="name">
+        <p class="affiliation">Imperial College London</p>
+        <h1 id="name">Yehui Tang</h1>
+        <p class="bio">My research spans embodied planning and recursive self-improvement. I build open-source tools to study how AI agents plan, act, and learn from experience.</p>
+        <div class="profile-links">
+          <a class="github-button" href="https://github.com/YehuiTang0316"><img alt="" width="17" height="17" src="assets/github.svg">GitHub</a>
+          <a class="text-link" href="https://scholar.google.com/citations?user=r2WGGZoAAAAJ&amp;hl=zh-CN">Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
+
+      <section id="news" class="news" aria-labelledby="news-title">
+        <h2 id="news-title">News</h2>
+        <ul class="updates">
+          <li><time datetime="2026-11-18">Nov 18, 2026</time><p><a href="https://github.com/rsi-gear/gear/releases/tag/v0.2.4">GEAR 0.2.4</a> adds seven built-in search algorithms and lets interrupted runs resume.</p></li>
+          <li><time datetime="2026-10-26">Oct 26, 2026</time><p>Our <a href="https://huggingface.co/spaces/WizardTY/GEAR">GEAR preprint</a> is out, with experiments on how agent harnesses improve across tasks.</p></li>
+        </ul>
+      </section>
+    </div>
+
+    <section id="repositories" class="repos band" aria-labelledby="repos-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="repos-title">Repositories</h2>
+          <a class="text-link" href="https://github.com/YehuiTang0316?tab=repositories">All repositories <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="project-grid">
+          <article class="project">
+            <span class="owner">rsi-gear</span>
+            <h3><a href="https://github.com/rsi-gear/gear">GEAR<span class="arrow" aria-hidden="true">↗</span></a></h3>
+            <p>A framework for testing and refining agent harnesses using feedback from their runs.</p>
+          </article>
+          <article class="project">
+            <span class="owner">YehuiTang0316</span>
+            <h3><a href="https://github.com/YehuiTang0316/jev-nlgrep">nlgrep<span class="arrow" aria-hidden="true">↗</span></a></h3>
+            <p>A command-line tool for finding code and text by describing what you want to match.</p>
+          </article>
+          <article class="project">
+            <span class="owner">YehuiTang0316</span>
+            <h3><a href="https://github.com/YehuiTang0316/github-insights-backup">GitHub Insights Backup<span class="arrow" aria-hidden="true">↗</span></a></h3>
+            <p>Archive daily GitHub traffic snapshots and keep the history as CSV files in your own repository.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <div class="reading wrap">
+      <section id="tutorials" aria-labelledby="tutorials-title">
+        <h2 id="tutorials-title">Tutorials</h2>
+        <ul class="entries">
+          <li><span class="meta">GEAR guide</span><h3><a href="https://github.com/rsi-gear/gear/blob/main/docs/guide/en/quickstart.md">Run your first GEAR experiment <span aria-hidden="true">↗</span></a></h3><p>Install GEAR, check the environment, and run the quickstart.</p></li>
+          <li><span class="meta">Command line</span><h3><a href="https://github.com/YehuiTang0316/jev-nlgrep#install-and-get-started">Search a codebase with nlgrep <span aria-hidden="true">↗</span></a></h3><p>Preview a natural-language query, then run it with a request limit.</p></li>
+          <li><span class="meta">GitHub Actions</span><h3><a href="https://github.com/YehuiTang0316/github-insights-backup#set-up-in-github">Archive repository traffic <span aria-hidden="true">↗</span></a></h3><p>Set up daily snapshots of repository views and clones.</p></li>
+        </ul>
+      </section>
+      <section id="blog" aria-labelledby="blog-title">
+        <h2 id="blog-title">Blog</h2>
+        <ul class="entries">
+          <li><time datetime="2026-11-13">Nov 13, 2026</time><h3><a href="https://rsigear.xyz/blog/one-harness-doesnt-fit-every-task">One harness doesn’t fit every task. <span aria-hidden="true">↗</span></a></h3><p>What three agent configurations did on Kaggle’s Titanic dataset.</p></li>
+          <li><time datetime="2026-10-27">Oct 27, 2026</time><h3><a href="https://rsigear.xyz/blog/building-scikit-learn-for-rsi">We Are Building scikit-learn for Recursive Self-Improvement <span aria-hidden="true">↗</span></a></h3><p>How GEAR lets researchers compare improvement algorithms in a shared environment.</p></li>
+          <li><time datetime="2026-09-28">Sep 28, 2026</time><h3><a href="https://rsigear.xyz/blog/what-infrastructure-does-recursive-self-improvement-need">What Infrastructure Does Recursive Self-Improvement (RSI) Need? <span aria-hidden="true">↗</span></a></h3><p>The roles of Gear, Hitch, and Rear in an agent improvement loop.</p></li>
+        </ul>
+      </section>
+    </div>
+
+    <section id="papers" class="papers band" aria-labelledby="papers-title">
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id="papers-title">Papers</h2>
+          <a class="text-link" href="https://scholar.google.com/citations?user=r2WGGZoAAAAJ&amp;hl=zh-CN">All on Google Scholar <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="paper-list">
+          <article class="paper">
+            <div class="paper-meta"><span>2026</span><span>Preprint</span></div>
+            <div><h3><a href="https://huggingface.co/spaces/WizardTY/GEAR">GEAR: An Open General Evolutionary Architecture for Recursive Self-Improvement of LLM Agent Harness</a></h3>
+            <p><strong>Yehui Tang</strong>, Guanqi Zhu, Shao-Jun Xia, Xin Chen, Mengzhe Geng, Hongyang Du, and Yuhao Tang</p>
+            <a class="text-link" href="https://rsi-gear.github.io/">Project page <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="paper">
+            <div class="paper-meta"><span>2026</span><span>IEEE ICRA</span></div>
+            <div><h3><a href="https://doi.org/10.1109/ICRA57385.2026.11696567">Towards Proprioception-Aware Embodied Planning for Dual-Arm Humanoid Robots</a></h3>
+            <p>Boyu Li, Siyuan He, Hang Xu, Haoqi Yuan, Yu Zang, Liwei Hu, Junpeng Yue, Zhenxiong Jiang, Pengbo Hu, Börje F. Karlsson, Dongbin Zhao, <strong>Yehui Tang</strong>, and Zongqing Lu</p>
+            <a class="text-link" href="https://arxiv.org/abs/2510.07882">arXiv <span aria-hidden="true">↗</span></a></div>
+          </article>
+          <article class="paper">
+            <div class="paper-meta"><span>2025</span><span>Preprint</span></div>
+            <div><h3><a href="https://arxiv.org/abs/2509.17116">MCTS-EP: Empowering Embodied Planning with Online Preference Optimization</a></h3>
+            <p>Hang Xu, Zang Yu, <strong>Yehui Tang</strong>, Pengbo Hu, Yuhao Tang, and Hao Dong</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap"><span>© 2026 Yehui Tang</span><a href="#top">Back to top <span aria-hidden="true">↑</span></a></footer>
+</body>
+</html>
